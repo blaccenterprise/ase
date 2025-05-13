@@ -1,61 +1,95 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
-    <script>
-                    //Missions Lv.4  {
-        //Access Missions  {
-    case "access level four missions":
-    text = "Use the Phrase : what are the available __(Category Of Mission)__.";
-    Arthenya.say("Categories For Missions are Objective, Side Quest, Missions, Team Missions and Legion Mission.");
-    break;
-    
-    case "Access level four Missions":
-    text = "Use the Phrase : what are the available __(Category Of Mission)__.";
-    Arthenya.say("Categories For Missions are Objective, Side Quest, Missions, Team Missions and Legion Mission.");
-    break;
-    //}
-        //Objectives Lv.4  {
-            //Request To Hear The Possible Objectives  {
-    case "what are the available level four objectives":
-    text = "There are no objectives";
-    Arthenya.say("There are no objectives");
-    alert("There are no objectives");
-    
-    case "what are the current level four objectives":
-    text = "There are no objectives";
-    Arthenya.say("There are no objectives");
-    alert("There are no objectives");
-    //}
-              //} 
-        //Side Quest Lv.4  {
-            //Request To Hear The Possible Side Quests  {
-    case "what are the available level four side quests":
-    text = "There are no side quests";
-    Arthenya.say("There are no side quests");
-    alert("There are no side quests");
-    break;
-    
-    case "what are the current level four side quests":
-    text = "There are no side quests";
-    Arthenya.say("There are no side quests");
-    alert("There are no side quests");
-    break;
-    //}
-              //}
-        //Missions Lv.4  {
-            //Request To Hear The Possible Missions  {
-    case "what are the available level four missions":
-    text = "There are no missions";
-    Arthenya.say("There are no missions");
-    alert("There are no missions");
-    break;
-    
-    case "what are the current level four missions":
-    text = "There are no missions";
-    Arthenya.say("There are no missions");
-    alert("There are no missions");
-    break;
-                  //}
-              //}
-            //}
-            </script>
+<head>
+      <title> Level Four Missions </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		    background-image: url('../../../Content/content/BLACCimages/Circle.jpg');
+
+		}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+		<br>
+<h1 style="color: green;">Level Four (4)</h1>
+
+
+<ul id="myUL">
+  <li>N/A</li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
 </html>
