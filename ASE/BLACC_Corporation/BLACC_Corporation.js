@@ -550,6 +550,12 @@
     text = "Stand By.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", "width=400,height=400");
     break;
+
+
+    case "B.L.A.C.C. Ark":
+    text = "Stand By.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", "width=400,height=400");
+    break;
 //}
                 //Asclepieion of B.L.A.C.C.  {
     
@@ -649,6 +655,11 @@
                 //Vital Mathematics  {
                     //Direct Link  {
     case "Vital Mathematics":
+    text = "Vital Mathematics, the free educational website provided by B.L.A.C.C. Corporation. With pre-recorded videos uploaded weekly, Vital Mathematics offers a wealth of material for all levels of math learners. .";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    break;
+    
+    case "Vital mathematics":
     text = "Vital Mathematics, the free educational website provided by B.L.A.C.C. Corporation. With pre-recorded videos uploaded weekly, Vital Mathematics offers a wealth of material for all levels of math learners. .";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
     break;
@@ -804,6 +815,11 @@
     text = "This information has not been proceed yet.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", "width=400,height=400");
     break;
+    
+    case "Pharaoh history":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", "width=400,height=400");
+    break;
 //}
             //Architecture  {
     case "Architecture":
@@ -868,6 +884,11 @@
     text = "This information has not been proceed yet.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", "width=400,height=400");
     break;
+    
+    case "Website inquiry":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", "width=400,height=400");
+    break;
 //}
                 //B.L.A.C.C. Tele  {
     case "BLACC Tele":
@@ -891,6 +912,21 @@
                 //B.L.A.C.C. Guided Pathway  {
                             
     case "BLACC Guided Pathway":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    break;
+                            
+    case "B.L.A.C.C. Guided Pathway":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    break;
+                            
+    case "Black Guided Pathway":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    break;
+                            
+    case "Black guided pathway":
     text = "This information has not been proceed yet.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
     break;
