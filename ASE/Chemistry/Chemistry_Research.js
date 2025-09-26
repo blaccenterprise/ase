@@ -25,14 +25,14 @@
                                 if (text = "Research hydrogen.") {
                                 window.open("./Research/Chemistry/Hydrogen.txt", "./Research/Chemistry/Hydrogen.txt", "width=300,height=300");
                                 break;
-}
+                          
 //}
                         //Hydrogen {
                             case "Hydrogen":
                                 text = "Hydrogen";
                                 ASE.say("Give me second.");
                                 if (text = "Hydrogen.") {
-                                window.open("./Research/Chemistry/Hydrogen.txt", "./Research/Chemistry/Hydrogen.txt", "width=300,height=300");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Hydrogen.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Hydrogen.txt", "width=300,height=300", target="_blank");
                                 break;
 }
 //}
