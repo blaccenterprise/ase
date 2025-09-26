@@ -29,6 +29,18 @@
                                 ASE.say("Welcome");
                                 window.open("./ASE_Part_2_ASE_Access.html", "./ASE_Part_2_ASE_Access.html", "width=400,height=400");
                                 break;
+                                
+                            case "Ace manual part 1":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/ASE_Manuel_Part_1.html", "https://blaccenterprise.github.io/ase/ASE/ASE_Manuel_Part_1.html", "width=400,height=400");
+                                break;
+
+                            case "Ace manual part 2":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/ASE_Part_2_ASE_Access.html", "https://blaccenterprise.github.io/ase/ASE/ASE_Part_2_ASE_Access.html", "width=400,height=400");
+                                break;
                             //}
                     //Shorthand - Written Language  {
                             case "open ace manual part 1":
@@ -69,6 +81,12 @@
                                 text = "Welcome";
                                 ASE.say("Welcome");
                                 window.open("./Research/Book_Research/Algebra_1_Topics.txt", "./Research/Book_Research/Algebra_1_Topics.txt", "width=400,height=400");
+                                break;
+
+                            case "Algebra 1 Topics":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Algebra_1_Topics.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Algebra_1_Topics.txt", "width=400,height=400");
                                 break;
                             //}
                     //Shorthand - Written Language  {
@@ -111,6 +129,12 @@
                                 ASE.say("Welcome");
                                 window.open("./Research/Book_Research/Zebra_Labyrinth.txt", "./Research/Book_Research/Zebra_Labyrinth.txt", "width=400,height=400");
                                 break;
+
+                            case "Zebra Labyrinth":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Zebra_Labyrinth.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Zebra_Labyrinth.txt", "width=400,height=400");
+                                break;
                             //}
                     //Shorthand - Written Language  {
                             case "open algebra 1 topics":
@@ -144,13 +168,19 @@
                             case "Open your breakdown":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("./Research/Book_Research/ASE_Breakdown.txt", "./Research/Book_Research/ASE_Breakdown.txt", "width=400,height=400");
+                                window.open("./Research/Book_Research/Arthenya_Breakdown.txt", "./Research/Book_Research/Arthenya_Breakdown.txt", "width=400,height=400");
                                 break;
 
                             case "Open your breakdown":
                                 text = "Welcome";
                                 ASE.say("Welcome");
-                                window.open("./Research/Book_Research/ASE_Breakdown.txt", "./Research/Book_Research/ASE_Breakdown.txt", "width=400,height=400");
+                                window.open("./Research/Book_Research/Arthenya_Breakdown.txt", "./Research/Book_Research/Arthenya_Breakdown.txt", "width=400,height=400");
+                                break;
+
+                            case "Arthneya's Breakdown":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Arthenya_Breakdown.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Arthenya_Breakdown.txt", "width=400,height=400");
                                 break;
                             //}
                     //Shorthand - Written Language  {
@@ -219,6 +249,12 @@
                                 ASE.say("Welcome");
                                 window.open("./Research/Book_Research/Memory_Vault.txt", "./Research/Book_Research/Memory_Vault.txt", "width=400,height=400");
                                 break;
+
+                            case "Arthneya's Memory Pathway":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Memory_Vault.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Memory_Vault.txt", "width=400,height=400");
+                                break;
                             //}
                             //}
                 //Lesser Keys Of Solomon {
@@ -228,6 +264,12 @@
                                 text = "Welcome";
                                 ASE.say("Welcome");
                                 window.open("./Research/Book_Research/Lesser_Keys_Of_Solomon/lesserkeysolomo00laurgoog.pdf", "./Research/Book_Research/Lesser_Keys_Of_Solomon/lesserkeysolomo00laurgoog.pdf", "width=400,height=400");
+                                break;
+                                
+                            case "Lesser Keys Of Solomon":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Lesser_Keys_Of_Solomon/lesserkeysolomo00laurgoog.pdf", "https://blaccenterprise.github.io/ase/ASE/Research/Book_Research/Lesser_Keys_Of_Solomon/lesserkeysolomo00laurgoog.pdf", "width=400,height=400");
                                 break;
 
                             //}
@@ -256,6 +298,12 @@
                                 break;
                                 
                             case "Open the sigil for Bael":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("./Research/Book_Research/Lesser_Keys_Of_Solomon/Bael.jpg", "./Research/Book_Research/Lesser_Keys_Of_Solomon/Bael.jpg", "width=400,height=400");
+                                break;
+                                
+                            case "Open the sigil for bael":
                                 text = "Welcome";
                                 ASE.say("Welcome");
                                 window.open("./Research/Book_Research/Lesser_Keys_Of_Solomon/Bael.jpg", "./Research/Book_Research/Lesser_Keys_Of_Solomon/Bael.jpg", "width=400,height=400");
