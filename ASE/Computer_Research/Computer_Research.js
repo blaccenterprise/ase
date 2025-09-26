@@ -11,11 +11,8 @@
                             
 //Digital Modules  {
 
-   
-
     //Knowledge Module {
       
-                            
         //Computer Research  {
                 //Single Case {
                     case "Open coding reference":
@@ -36,6 +33,13 @@
                             //}
                     //date  {
                             case "linux command date":
+                                text = "linux command date";
+                                if (text = "linux command date") {
+                                    ASE.say("Linux command date Gives Current Time and Date.");
+                                }
+                                break;
+                                
+                            case "date":
                                 text = "linux command date.";
                                 if (text = "linux command date.") {
                                     ASE.say("Linux command date Gives Current Time and Date.");
@@ -791,9 +795,8 @@
                             case "HTML command TR tag":
                                 text = "HTML command TR tag.";
                                 ASE.say("...");
-                                
                                 break;
-
+                                
                             case "Give an example of the HTML command TR tag":
                                 text = "Give an example of the HTML command TR tag";
                                 alert("...");
@@ -859,7 +862,6 @@
                             //}
                             //}
                             //}
-                            
                             
 //}
 
