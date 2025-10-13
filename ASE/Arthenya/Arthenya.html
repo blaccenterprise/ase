@@ -5,74 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./blacc_body.css">
     <link rel="stylesheet" href="./Format_Web.css">
-    <link rel="stylesheet" href="https://blaccenterprise.github.io/content/CSS/purple_theme_part_2.css">
     
+    
+<!-- Tooltip -->
 <style>
-/* Fixed sidenav, full height */
-.sidenav {
-  height: 100%;
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 15px;
   width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+  bottom: 75%;
+  right: 50%;
+  margin-left: 60px;
+  padding: .5px;
+  opacity: 0;
+  transition: opacity 3s;
 }
 
-/* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
-}
-
-/* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
-}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 </style>
+
+<!-- Category Container -->
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -140,7 +118,9 @@ body {
   .sidebar a {font-size: 18px;}
 }
 </style>
-    <style>
+
+<!-- ASE Effects -->
+<style>
 
         /* CSS comes here */
         body {
@@ -213,7 +193,9 @@ body {
 	  
 
         </style>
-        <script>
+        
+        
+<script>
             /**
             * Artyom.js is a voice control, speech recognition and speech synthesis JavaScript library.
             *
@@ -1706,50 +1688,171 @@ body {
 
                 <br>
 
-
 <div1 id="mySidebar" class="sidebar BLACC-theme">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="./Animals_Research.html">Animals Research</a>
-  <a href="./ASE.html">ASE</a>
-  <a href="./ASL.html">ASL</a>
-  <a href="./BLACC_Connect.html">B.L.A.C.C. Connect</a>
-  <a href="./BLACC_Corporation.html">B.L.A.C.C. Corporation</a>
-  <a href="./BLACC_Members.html">B.L.A.C.C. Members</a>
-  <a href="./BLACChole.html">BLACChole</a>
-  <a href="./Black_Movement.html">Black Movement</a>
-  <a href="./Book_Research.html">Book Research</a>
-  <a href="./Chat.html">Chat</a>
-  <a href="./Chemistry.html" Title="Provides information about the elements and compounds that are formed by the elements">Chemistry</a>
-  <a href="./City_Home_Page.html">City Home Page</a>
-  <a href="./Coding_Folder.html">Coding Folder</a>
-  <a href="./Combat_Mode.html">Combat Mode</a>
-  <a href="./COMMANDS_Conditional.html">Commands - Conditional</a>
-  <a href="./COMMANDS_Open.html">Commands - Open</a>
-  <a href="./COMPARATIVE_BLACC_Connect.html">Comparative - B.L.A.C.C. Connect</a>
-  <a href="./COMPARATIVE_Essence_Analysis.html">Comparative - Essence Analysis</a>
-  <a href="./Computer_Research.html">Computer Research</a>
-  <a href="./Conversions_Units_Measurements.html">Conversions/Units Measurements</a>
-  <a href="./Database.html">Database</a>
-  <a href="./Firearms.html">Firearms</a>
-  <a href="./Mathematical_Operations.html">Mathematical Operations</a>
-  <a href="./Mechanical_Research.html">Mechanical Research</a>
-  <a href="./Arthenyas_Memory_Vault.html"> Memory Vault</a>
-  <a href="./Message.html">Message</a>
-  <a href="./Missions.html">Missions</a>
-  <a href="./Money_Movement.html">Money Movement</a>
-  <a href="./Mother_Connection.html">Mother Connection</a>
-  <a href="./Music_Safe.html">Music Safe</a>
-  <a href="./Neurobiology.html" Title="">Neurobiology</a>
-  <a href="./Other_Apps.html">Other Apps</a>
-  <a href="./Outcome_Timing.html">Outcome Timing</a>
-  <a href="./Physics.html">Physics Research</a>
-  <a href="./Politicians.html">Politicians</a>
-  <a href="./SECURITY_PSB.html">Security PSB</a>
-  <a href="./SECURITY_Location.html">Security Location</a>
-  <a href="./SECURITY_Alert.html">Security Alert</a>
-  <a href="./Ultra_Instinct_Mode.html">Ultra Instinct Mode</a>
-  <a href="./World_Research.html">World Research</a>
-  <a href="./Personal_Information.html" target="_self" Title="This Provides Information About The User And ASE">Personal Information</a>
+  
+  <a href="./Ultra_Instinct_Mode.html" style="background-color: white; color: purple">
+    <divtip class="tooltip"> Ultra Instinct Mode  <span class="tooltiptext">"Ultra Instinct Mode" will initialize full access for all memory modules</span>
+</divtip>
+</a>
+
+<!-- Singulaar Mindsets -->
+  <a href="./Animals_Research.html">
+    <divtip class="tooltip"> Animals Research  <span class="tooltiptext">"Animals Research" of the memory module will give access to information about animals around the world.</span>
+</divtip>
+</a>
+ <a href="./ASL.html">  <divtip class="tooltip"> ASL  <span class="tooltiptext">"A. (American) S.(Sign)  L.(Languaage)" provides information about the language and how to use it properly.</span>
+</divtip>
+</a>
+  <a href="./BLACC_Corporation.html">
+    <divtip class="tooltip"> B.L.A.C.C. Corporation  <span class="tooltiptext">"B.L.A.C.C. Corporation" of the memory module will give selective information and access to most B.L.A.C.C. inventions.</span>
+</divtip>
+</a>
+  <a href="./BLACC_Members.html"> 
+  <divtip class="tooltip"> B.L.A.C.C. Members  <span class="tooltiptext">"B.L.A.C.C. Members" of the memory module will give selective information and access to all people assocciated with B.L.A.C.C. Corporation.</span>
+</divtip>
+</a>
+  <a href="./BLACChole.html"> 
+  <divtip class="tooltip">BLACChole  <span class="tooltiptext">"BLACChole" of the memory module will direct toward the BLACChole invention, which deals with video streaming.</span>
+</divtip>
+</a>
+  <a href="./Book_Research.html">
+  <divtip class="tooltip">Book Research  <span class="tooltiptext">"Book Research" of the memory module will direct toward all information and access to most books available by B.L.A.C.C. Corproation.</span>
+</divtip>
+</a>
+  <a href="./Chemistry.html">
+  <divtip class="tooltip"> Chemistry  <span class="tooltiptext">"Chemistry" of the memory module will provides information about the elements and compounds that are formed by the elements.</span>
+</divtip>
+</a>
+  <a href="./City_Home_Page.html" >
+  <divtip class="tooltip"> City Home Page  <span class="tooltiptext">"City Home Page" of the memory module will direct toward information and access to all counties information page craated by B.L.A.C.C. Connect.</span>
+</divtip>
+</a>
+  <a href="./Coding_Folder.html">
+  <divtip class="tooltip"> Coding Folder  <span class="tooltiptext">"Coding Folder" of the memory module will direct toward information and tutorials on how to code certain widgets.</span>
+</divtip>
+</a>
+  <a href="./COMMANDS_Open.html">
+  <divtip class="tooltip"> Commands - Open  <span class="tooltiptext">"Commands - Open" of the memory module will give access To all the modules related to of B.L.A.C.C. Connect of the memory module at once by the OPEN (Phrase Word).</span>
+</divtip></a>
+  <a href="./Computer_Research.html">
+  <divtip class="tooltip"> Computer Research  <span class="tooltiptext">"Computer Research" of the memory module will give access To all the modules related to coding html, javascript, css, linux, R and excel.</span>
+</divtip>
+</a>
+  <a href="./Contact.html">
+  <divtip class="tooltip"> Contact  <span class="tooltiptext">"Contact" of the memory module will direct toward information and access to all available contact windows associated wiith B.L.A.C.C. Corporation.</span>
+</divtip>
+</a>
+  <a href="./Conversions_Units_Measurements.html">
+  <divtip class="tooltip"> Conversions/Units Measurements  <span class="tooltiptext">"Conversions/Units Measurements" of the memory module will direct toward windows that convert units to exact measurement.</span>
+</divtip></a>
+  <a href="./Database.html" >
+  <divtip class="tooltip"> Database  <span class="tooltiptext">"Database" of the memory module will give access to all the statistical data that is related to B.L.A.C.C. Connect.</span>
+</divtip>
+</a>
+  <a href="./Firearms.html">
+  <divtip class="tooltip"> Firearms  <span class="tooltiptext">"Firearms" of the memory module will direct toward windows that provide information on guns of all categories and the calibers.</span>
+</divtip></a>
+  <a href="./Mathematical_Operations.html">
+  <divtip class="tooltip"> Mathematical Operations  <span class="tooltiptext">"Mathematical Operations" of the memory module will direct toward windows that provide information and equations that will complete calculations.</span>
+</divtip></a>
+  <a href="./Mechanical_Research.html">
+  <divtip class="tooltip"> Mechanical Research  <span class="tooltiptext">"Mechanical Research" of the memory module will direct toward windows that provides information on mechanically related topics.</span>
+</divtip></a>
+  <a href="./Message.html">
+  <divtip class="tooltip"> Message  <span class="tooltiptext">"Message" of the memory module will give access to the avaliable member that can be messaged through phantom texting</span>
+</divtip>
+</a>
+  <a href="https://blaccenterprise.github.io/Media/Instramentals.html" >
+  <divtip class="tooltip"> Music Safe  <span class="tooltiptext">"Music Safe" of the memory module will give access To all the instramentals, raw wav files, and beats madde by B.L.A.C.C. Music.</span>
+</divtip>
+</a>
+  <a href="./Neurobiology.html">
+  <divtip class="tooltip"> Neurobiology  <span class="tooltiptext">"Neurobiology" of the memory module will direct toward windows that provides information on neurobiology termiology and related topics.</span>
+</divtip></a>
+  <a href="./Other_Apps.html">
+  <divtip class="tooltip"> Other Apps  <span class="tooltiptext">"Other Apps" of the memory module will give access to other applications that are not B.L.A.C.C. related like Facebook,, Instagram and Snapchat.</span>
+</divtip>
+</a>
+  <a href="./Physics.html">
+  <divtip class="tooltip"> Physics Research  <span class="tooltiptext">"Physics Research" of the memory module will direct toward windows that provides information physics and equations.</span>
+</divtip></a>
+  <a href="./Politicians.html">
+  <divtip class="tooltip"> Politicians  <span class="tooltiptext">"Politicians" of the memory module will direct toward information about relevant and current political leaders and influencers.</span>
+</divtip>
+</a>
+  <a href="./Personal_Information.html">
+  <divtip class="tooltip"> Personal Information  <span class="tooltiptext">"Personal Information" of the memory module will give access Information About The User And ASE.</span>
+</divtip>
+</a>
+  <a href="./SECURITY_Alert.html">
+  <divtip class="tooltip"> Security Alert  <span class="tooltiptext">"Security Alert" of the memory module will give access to all possible incorporated cities, unincorporated communities, and parcels own by B.L.A.C.C. Corporation.</span>
+</divtip>
+</a>
+  <a href="./SECURITY_Location.html">
+  <divtip class="tooltip"> Security Location  <span class="tooltiptext">"Security Location" of the memory module will give access to all possible incorporated cities, unincorporated communities, and parcels own by B.L.A.C.C. Corporation.</span>
+</divtip>
+</a>
+  <a href="./SECURITY_PSB.html">
+  <divtip class="tooltip"> Security PSB  <span class="tooltiptext">"Security PSB" of the memory module will give access the backgound checks on public figures and public servant.</span>
+</divtip>
+</a>
+  <a href="./World_Research.html">
+  <divtip class="tooltip"> World Research  <span class="tooltiptext">"World Research" of the memory module will direct toward information about world issues and objectives.</span>
+</divtip></a>
+
+<!-- Archetypical Mindset -->
+  <a href="./BLACC_Connect.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> B.L.A.C.C. Connect  <span class="tooltiptext">"B.L.A.C.C. Connect" of the memory module will give access To all the modules related to B.L.A.C.C. Connect of the memory module at once.</span>
+</divtip></a>
+  <a href="./Black_Movement.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> Black Movement  <span class="tooltiptext">"Black Movement" of the memory module will direct toward objecttive of the B.L.A.C.C. Connect Connection and its internal Network.</span>
+</divtip></a>
+  <a href="./Combat_Mode.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> Combat Mode  <span class="tooltiptext">"Combat Mode" of the memory module will give access to all modules composed of defensive tactics to proctection.</span>
+</divtip></a>
+  <a href="./Missions.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> Missions  <span class="tooltiptext">"Missions" of the memory module will give access To all the modules related to of B.L.A.C.C. Ark.</span>
+</divtip>
+</a>
+  <a href="./Money_Movement.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> Money Movement  <span class="tooltiptext">"Money Movement" of the memory module will give access To all the modules related ro the outlets that will show money moves.</span>
+</divtip>
+</a>
+  <a href="./Mother_Connection.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> Mother Connection  <span class="tooltiptext">"Mother Connection" of the memory module will give access To all the modules related ro the outlets that classified as nonpublic information.</span>
+</divtip>
+</a>
+  <a href="./ASE.html" style="background-color: black; color: gold">
+  <divtip class="tooltip"> A.S.E.  <span class="tooltiptext">"A.S.E." of the memory module will give access To all the modules related ro the outlets that classified as public information.</span>
+</divtip>
+</a>
+  <a href="../../../Raziel/Chat.html"  style="background-color: black; color: gold" target="_blank">
+  <divtip class="tooltip"> Raziel  <span class="tooltiptext">"Raziel" is a seperate entity in it's own repository. Raziel only accepts type messages and will only respond in typed messsages.</span>
+</divtip>
+</a>
+  <a href="./Arthenyas_Memory_Vault.html"   style="background-color: black; color: gold">
+  <divtip class="tooltip"> Memory Vault  <span class="tooltiptext">"Memory Vault" of the memory module will give access to the navigational library of the A.S.E. system.</span>
+</divtip>
+</a>
+<!--Defective Mindset -->
+
+  <!--
+  <a href="./COMMANDS_Conditional.html" style="background-color: black; color: gold" Title="This will give access To all the modules related to of B.L.A.C.C. Connect of the memory module at once">Commands - Conditional</a>
+  
+  
+  <a href="./Outcome_Timing.html" style="background-color: red; color: black">
+  <divtip class="tooltip"> Outcome Timing  <span class="tooltiptext">"Outcome Timing" of the memory module will give access To all calculations and estimations that are time related.</span>
+</divtip>
+</a>
+  
+  -->
+  <!--
+  <a href="./COMPARATIVE_BLACC_Connect.html" style="background-color: black; color: gold" Title="This will give access To all the modules related to of B.L.A.C.C. Connect of the memory module at once by the OPEN (Phrase Word).">Comparative - B.L.A.C.C. Connect</a>
+
+  
+  <a href="./COMPARATIVE_Essence_Analysis.html" style="background-color: black; color: gold" Title="This will give access To all the modules related to of B.L.A.C.C. Connect of the memory module at once by the OPEN (Phrase Word).">Comparative - Essence Analysis</a>
+    -->
 </div1>
 
 <div2 id="main">

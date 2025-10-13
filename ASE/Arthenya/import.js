@@ -1,5 +1,5 @@
 //module1.js 
-let Animal =
+let Arthenya =
 {
 	name1: "Aardvark",
 	name2: "Abyssinian",
