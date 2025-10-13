@@ -21,7 +21,7 @@
     case "Biology":
     text = "The intellectual property within  Biology are Black Ark, OneiroNet and Asclepieion of Black. ";
     ASE.say("The intellectual property within  Biology are Black Ark, OneiroNet and Asclepieion of Black");
-    window.open("https://blaccenterprise.github.io/blacccorporation/Biology_Intellectual_Property.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Biology_Intellectual_Property.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Biology_Intellectual_Property.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Biology_Intellectual_Property.html", "width=400,height=400");
     break;
             
     case "biology":
@@ -89,7 +89,7 @@
                     
     case "OneiroNet":
     text = "Stand By.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_OneiroNet.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_OneiroNet.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_OneiroNet.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_OneiroNet.html", "width=400,height=400");
     break;
                     
     case "Oneironet":
@@ -554,7 +554,7 @@
 
     case "B.L.A.C.C. Ark":
     text = "Stand By.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_The_Ark.html", "width=400,height=400");
     break;
 //}
                 //Asclepieion of B.L.A.C.C.  {
@@ -562,6 +562,11 @@
     case "Asclepieion of BLACC":
     text = "Stand By.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_Asclepieion_Of_BLACC.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_Asclepieion_Of_BLACC.html", "width=400,height=400");
+    break;
+    
+    case "Asclepieion of B.L.A.C.C.":
+    text = "Stand By.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_Asclepieion_Of_BLACC.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Biology_Project_Asclepieion_Of_BLACC.html", "width=400,height=400");
     break;
     
     case "Asclepieion Of BLACC":
@@ -589,7 +594,7 @@
     case "Language":
     text = "The intellectual property within  Biology are BLACC Academy, Vital Mathematics and Pharaoh History. ";
     ASE.say("The intellectual property within  Biology are BLACC Academy, Vital Mathematics and Pharaoh History");
-    window.open("https://blaccenterprise.github.io/blacccorporation/Language_Intellectual_Property.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Language_Intellectual_Property.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Language_Intellectual_Property.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Language_Intellectual_Property.html", "width=400,height=400");
     break;
             
     case "language":
@@ -656,7 +661,7 @@
                     //Direct Link  {
     case "Vital Mathematics":
     text = "Vital Mathematics, the free educational website provided by B.L.A.C.C. Corporation. With pre-recorded videos uploaded weekly, Vital Mathematics offers a wealth of material for all levels of math learners. .";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
     break;
     
     case "Vital mathematics":
@@ -813,7 +818,7 @@
                 //Pharaoh History  {
     case "Pharaoh History":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Pharaoh_History.html", "width=400,height=400");
     break;
     
     case "Pharaoh history":
@@ -825,34 +830,34 @@
     case "Architecture":
     text = "The intellectual property within Architecture are NFT, Blacklining and Eye. ";
     ASE.say("The intellectual property within Architecture are NFT, Blacklining and Eye");
-    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#architecture", target="_self", "https://blaccenterprise.github.io/blacccorporation/index.html#architecture", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#architecture", target="_blank", "https://blaccenterprise.github.io/blacccorporation/index.html#architecture", "width=400,height=400");
     break;
 //}
                 //Blacklining  {
                             
     case "Blacklining":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_Blacklining.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_Blacklining.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_Blacklining.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_Blacklining.html", "width=400,height=400");
     break;
 //}
                 //NFT  {
                             
     case "NFT":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_NFT.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_NFT.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_NFT.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Architecture_Project_NFT.html", "width=400,height=400");
     break;
 //}
                 //Eye  {
     case "Eye":
     text = "Stand By.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Eye.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Eye.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Eye.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Eye.html", "width=400,height=400");
     break;
 //}
             //Computer Science  {
     case "Computer Science":
     text = "The intellectual property within Computer Science are Black Connect, Black Server, New Nexxus and Website Inquiry. ";
     ASE.say("The intellectual property within Computer Science are Black Connect, Black Server, New Nexxus and Website Inquiry");
-    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#computerscience", target="_self", "https://blaccenterprise.github.io/blacccorporation/index.html#computerscience", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#computerscience", target="_blank", "https://blaccenterprise.github.io/blacccorporation/index.html#computerscience", "width=400,height=400");
     break;
 //}
                 //B.L.A.C.C. Connect  {
@@ -860,6 +865,11 @@
     case "BLACC Connect":
     text = "B.L.A.C.C. Connect provides a holistic approach to navigating and foreseeing help to those groups like individual, business, city, county, state that are experiencing hardship..";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Connect.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Connect.html", "width=400,height=400");
+    break;
+    
+    case "B.L.A.C.C. Connect":
+    text = "B.L.A.C.C. Connect provides a holistic approach to navigating and foreseeing help to those groups like individual, business, city, county, state that are experiencing hardship..";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Connect.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Connect.html", "width=400,height=400");
     break;
     
     case "blacc connect":
@@ -876,13 +886,13 @@
                             
     case "New Nexxus":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_New_Nexxus.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_New_Nexxus.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_New_Nexxus.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_New_Nexxus.html", "width=400,height=400");
     break;
 //}
                 //Website Inquiry  {
     case "Website Inquiry":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_Website_Inquiry.html", "width=400,height=400");
     break;
     
     case "Website inquiry":
@@ -894,13 +904,17 @@
     case "BLACC Tele":
     text = "This information has not been proceed yet.";
     window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html", "width=400,height=400");
+    
+    case "B.L.A.C.C. Tele":
+    text = "This information has not been proceed yet.";
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Computer_Science_Project_BLACC_Server.html", "width=400,height=400");
     break;
 //}
             //Change/Humanities  {
     case "Change":
     text = "The intellectual property within Change are Black Connect, Black Guided Pathway and New Nexxus. ";
     ASE.say("The intellectual property within Change are Black Connect, Black Guided Pathway and New Nexxus");
-    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#change", target="_self", "https://blaccenterprise.github.io/blacccorporation/index.html#change", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/index.html#change", target="_blank", "https://blaccenterprise.github.io/blacccorporation/index.html#change", "width=400,height=400");
     break;
     
     case "Humanities":
@@ -918,7 +932,7 @@
                             
     case "B.L.A.C.C. Guided Pathway":
     text = "This information has not been proceed yet.";
-    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_self", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
+    window.open("https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Change_Project_BLACC_Guided_Pathways.html", target="_blank", "https://blaccenterprise.github.io/blacccorporation/Website_Template_BLACC_Corporation_Language_Project_Vital_Mathematics.html", "width=400,height=400");
     break;
                             
     case "Black Guided Pathway":
