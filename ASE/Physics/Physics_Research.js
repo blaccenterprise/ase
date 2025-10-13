@@ -11,11 +11,8 @@
                             
 //Digital Modules  {
 
-   
-
     //Knowledge Module {
       
-                            
         //Physics Research  {
                 //Motion In A Straight Line {
                   //Velocity {
