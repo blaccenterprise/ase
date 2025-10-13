@@ -37,7 +37,12 @@
                 //Alhambra  {
     case "Alhambra":
     text = "Searching....!";
-    window.open("https://blaccenterprise.github.io/search/City_Home_Page/Alhambra/Alhambra_City_Council.html", target="_self", "./City_Home_Page/Alhambra/Alhambra_City_Council.html", "width=500,height=500");
+    window.open("https://blaccenterprise.github.io/search/City_Home_Page/Alhambra/Alhambra_City_Council.html", target="_blank", "./City_Home_Page/Alhambra/Alhambra_City_Council.html", "width=500,height=500");
+    break;
+    
+    case "California Los Angeles Alhambra":
+    text = "Searching....!";
+    window.open("https://blaccenterprise.github.io/search/City_Home_Page/Alhambra/Alhambra_City_Council.html", target="_blank", "./City_Home_Page/Alhambra/Alhambra_City_Council.html", "width=500,height=500");
     break;
 //}
                 //Azusa  {
