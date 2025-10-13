@@ -42,7 +42,7 @@
                             case "date":
                                 text = "linux command date.";
                                 if (text = "linux command date.") {
-                                    ASE.say("Linux command date Gives Current Time and Date.");
+                                    alert("Linux command date Gives Current Time and Date.");
                                 }
                                 break;
 
@@ -67,6 +67,13 @@
                                     alert("Linux command cal Gives Current Calendar.");
                                 }
                                 break;
+
+                            case "cal":
+                                text = "linux command cal.";
+                                if (text = "give an example of the linux command cal.") {
+                                    alert("Linux command cal Gives Current Calendar.");
+                                }
+                                break;
                             //}
                     //df  {
                             case "linux command df":
@@ -77,6 +84,13 @@
                                 break;
 
                             case "give an example of the linux command df":
+                                text = "linux command df.";
+                                if (text = "give an example of the linux command df.") {
+                                    alert("Linux command df Gives Information On Free Space On Disk Drive.");
+                                }
+                                break;
+
+                            case "df":
                                 text = "linux command df.";
                                 if (text = "give an example of the linux command df.") {
                                     alert("Linux command df Gives Information On Free Space On Disk Drive.");
