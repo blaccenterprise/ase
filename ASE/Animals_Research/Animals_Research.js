@@ -6,7 +6,16 @@
                         var ASE = new Artyom();
                         var emergency = 1;
                         var relax = 2;
-                        //}
+                        
+  //Animal Characterisruc Variable Chart  {
+  //Aardvark {
+  var Aardvark = 0.15;
+  var Aardvark_Agressiveness = 0.79;
+  var Aardvark_Valuability = 0.79
+  var Aardvark_Approachability = 0.69;
+  //}
+//}
+//}
                         switch (consciousness) {
                             
 //Digital Modules  {
