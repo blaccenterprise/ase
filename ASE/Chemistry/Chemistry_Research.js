@@ -21,9 +21,8 @@
                         //Pictorial Information {
                             case "Research hydrogen":
                                 text = "Research hydrogen";
-                                ASE.say("Give me second.");
-                                if (text = "Research hydrogen.") {
-                                window.open("./Research/Chemistry/Hydrogen.txt", "./Research/Chemistry/Hydrogen.txt", "width=300,height=300");
+                                ASE.say("Give me second."); 
+                                window.open("./Research/Chemistry/Hydrogen.txt", "./Research/Chemistry/Hydrogen.txt", "width=600,height=300");
                                 break;
                           
 //}
@@ -32,7 +31,7 @@
                                 text = "Hydrogen";
                                 ASE.say("Give me second.");
                                 if (text = "Hydrogen.") {
-                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Hydrogen.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Hydrogen.txt", "width=300,height=300", target="_blank");
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Hydrogen.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Hydrogen.txt", "width=300,height=600", target="_blank");
                                 break;
 }
 //}
@@ -62,6 +61,15 @@
                                 ASE.say("Give me second.");
                                 if (text = "Research helium.") {
                                 window.open("./Research/Chemistry/Helium.txt", "./Research/Chemistry/Helium.txt", "width=300,height=300");
+                                break;
+}
+//}
+                        //Helium {
+                            case "Helium":
+                                text = "Helium";
+                                ASE.say("Give me second.");
+                                if (text = "Helium.") {
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Helium.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Helium.txt", "width=600,height=300", target="_blank");
                                 break;
 }
 //}
@@ -97,6 +105,15 @@
                                 ASE.say("Give me second.");
                                 if (text = "Research helium.") {
                                 window.open("./Research/Chemistry/Helium.txt", "./Research/Chemistry/Helium.txt", "width=300,height=300");
+                                break;
+}
+//}
+                        //Lithium {
+                            case "Lithium":
+                                text = "Lithium";
+                                ASE.say("Give me second.");
+                                if (text = "Lithium.") {
+                                window.open("https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Lithium.txt", "https://blaccenterprise.github.io/ase/ASE/Research/Chemistry/Elements/Lithium.txt", "width=600,height=300", target="_blank");
                                 break;
 }
 //}
