@@ -44,13 +44,11 @@
 
                         ASE.say("Give me second.");
 
-                        if (text = "Open ASL Alphabet") {
-
                         window.open("https://blaccenterprise.github.io/ase/ASE/Research/ASL/ASL_Alphabet.jpg", "https://blaccenterprise.github.io/ase/ASE/Research/ASL/ASL_Alphabet.jpg", "width=300,height=300");
 
                         break;
 
-                
+
 
                     case "ASL Alphabet":
 
@@ -58,13 +56,9 @@
 
                         ASE.say("Give me second.");
 
-                        if (text = "ASL Alphabet") {
-
                         window.open("https://blaccenterprise.github.io/ase/ASE/Research/ASL/ASL_Alphabet.jpg", "https://blaccenterprise.github.io/ase/ASE/Research/ASL/ASL_Alphabet.jpg", "width=300,height=300");
 
                         break;
-
-}
 
 
                 //Letter A {
