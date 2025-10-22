@@ -992,6 +992,291 @@
                             //}
                             //}
                 //Animals Starting B  {
+                    //Babirusa  {
+                            case "Research Babirusa":
+                                text = "Research Babirusa";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/babirusa/", "https://a-z-animals.com/animals/babirusa/", "width=400,height=400");
+                                break;
+                                
+                            case "Babirusa":
+                                text = "Research Babirusa";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/babirusa/", "https://a-z-animals.com/animals/babirusa/", "width=400,height=400");
+                                break;
+                                
+                            case "babirusa":
+                                text = "Research babirusa";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/babirusa/", "https://a-z-animals.com/animals/babirusa/", "width=400,height=400");
+                                break;
+                            //}
+                    //Badger  {
+                            case "Research Badger":
+                                text = "Research Badger";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/badger/", "https://a-z-animals.com/animals/badger/", "width=400,height=400");
+                                break;
+                                
+                            case "Badger":
+                                text = "Research Badger";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/badger/", "https://a-z-animals.com/animals/badger/", "width=400,height=400");
+                                break;
+                                
+                            case "badger":
+                                text = "Research badger";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/badger/", "https://a-z-animals.com/animals/badger/", "width=400,height=400");
+                                break;
+                            //}
+                    //Bagworm Moth Caterpillar  {
+                            case "Research Bagworm Moth Caterpillar":
+                                text = "Research Bagworm Moth Caterpillar";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "width=400,height=400");
+                                break;
+                                
+                            case "Bagworm Moth Caterpillar":
+                                text = "Research Bagworm Moth Caterpillar";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "width=400,height=400");
+                                break;
+                                
+                            case "bagworm moth caterpillar":
+                                text = "Research bagworm moth caterpillar";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "https://a-z-animals.com/animals/bagworm-moth-caterpillar/", "width=400,height=400");
+                                break;
+                            //}
+                    //Baleen Whale  {
+                            case "Research Baleen Whale":
+                                text = "Research Baleen Whale";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baleen-whale/", "https://a-z-animals.com/animals/baleen-whale/", "width=400,height=400");
+                                break;
+                                
+                            case "Baleen Whale":
+                                text = "Research Baleen Whale";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baleen-whale/", "https://a-z-animals.com/animals/baleen-whale/", "width=400,height=400");
+                                break;
+                                
+                            case "baleen whale":
+                                text = "Research baleen whale";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baleen-whale/", "https://a-z-animals.com/animals/baleen-whale/", "width=400,height=400");
+                                break;
+                            //}
+                    //Ball Python  {
+                            case "Research Ball Python":
+                                text = "Research Ball Python";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/ball-python/", "https://a-z-animals.com/animals/ball-python/", "width=400,height=400");
+                                break;
+                                
+                            case "Ball Python":
+                                text = "Research Ball Python";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/ball-python/", "https://a-z-animals.com/animals/ball-python/", "width=400,height=400");
+                                break;
+                                
+                            case "ball python":
+                                text = "Research ball python";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/badger/", "https://a-z-animals.com/animals/badger/", "width=400,height=400");
+                                break;
+                            //}
+                    //Bamboo Worms  {
+                            case "Research Bamboo Worms":
+                                text = "Research Bamboo Worms";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bamboo-worms/", "https://a-z-animals.com/animals/bamboo-worms/", "width=400,height=400");
+                                break;
+                                
+                            case "Bamboo Worms":
+                                text = "Research Bamboo Worms";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bamboo-worms/", "https://a-z-animals.com/animals/bamboo-worms/", "width=400,height=400");
+                                break;
+                                
+                            case "bamboo worms":
+                                text = "Research bamboo worms";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bamboo-worms/", "https://a-z-animals.com/animals/bamboo-worms/", "width=400,height=400");
+                                break;
+                            //}
+                    //Banana Eel  {
+                            case "Research Banana Eel":
+                                text = "Research Banana Eel";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banana-eel/", "https://a-z-animals.com/animals/banana-eel/", "width=400,height=400");
+                                break;
+                                
+                            case "Banana Eel":
+                                text = "Research Banana Eel";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banana-eel/", "https://a-z-animals.com/animals/banana-eel/", "width=400,height=400");
+                                break;
+                                
+                            case "banana eel":
+                                text = "Research banana eel";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banana-eel/", "https://a-z-animals.com/animals/banana-eel/", "width=400,height=400");
+                                break;
+                            //}
+                    //Banded Palm Civet  {
+                            case "Research Banded Palm Civet":
+                                text = "Research Banded Palm Civet";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banded-palm-civet/", "https://a-z-animals.com/animals/banded-palm-civet/", "width=400,height=400");
+                                break;
+                                
+                            case "Banded Palm Civet":
+                                text = "Research Banded Palm Civet";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banded-palm-civet/", "https://a-z-animals.com/animals/banded-palm-civet/", "width=400,height=400");
+                                break;
+                                
+                            case "banded palm civet":
+                                text = "Research banded palm civet";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banded-palm-civet/", "https://a-z-animals.com/animals/banded-palm-civet/", "width=400,height=400");
+                                break;
+                            //}
+                    //Banjo Catfish  {
+                            case "Research Banjo Catfish":
+                                text = "Research Banjo Catfish";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banjo-catfish/", "https://a-z-animals.com/animals/banjo-catfish/", "width=400,height=400");
+                                break;
+                                
+                            case "Banjo Catfish":
+                                text = "Research Banjo Catfish";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banjo-catfish/", "https://a-z-animals.com/animals/banjo-catfish/", "width=400,height=400");
+                                break;
+                                
+                            case "banjo catfish":
+                                text = "Research banjo catfish";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/banjo-catfish/", "https://a-z-animals.com/animals/banjo-catfish/", "width=400,height=400");
+                                break;
+                            //}
+                    //Barbut’s Cuckoo Bumblebee  {
+                            case "Research Barbut’s Cuckoo Bumblebee":
+                                text = "Research Barbut’s Cuckoo Bumblebee";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "width=400,height=400");
+                                break;
+                                
+                            case "Barbut’s Cuckoo Bumblebee":
+                                text = "Research Barbut’s Cuckoo Bumblebee";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "width=400,height=400");
+                                break;
+                                
+                            case "barbut's cuckoo bumblebee":
+                                text = "Research barbut's cuckoo bumblebee";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "https://a-z-animals.com/animals/barbuts-cuckoo-bumblebee/", "width=400,height=400");
+                                break;
+                            //}
+                    //Bark Scorpion  {
+                            case "Research Bark Scorpion":
+                                text = "Research Bark Scorpion";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bark-scorpion/", "https://a-z-animals.com/animals/bark-scorpion/", "width=400,height=400");
+                                break;
+                                
+                            case "Bark Scorpion":
+                                text = "Research Bark Scorpion";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bark-scorpion/", "https://a-z-animals.com/animals/bark-scorpion/", "width=400,height=400");
+                                break;
+                                
+                            case "bark scorpion":
+                                text = "Research bark scorpion";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/bark-scorpion/", "https://a-z-animals.com/animals/bark-scorpion/", "width=400,height=400");
+                                break;
+                            //}
+                    //Barn Swallow  {
+                            case "Research Barn Swallow":
+                                text = "Research Barn Swallow";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barn-swallow/", "https://a-z-animals.com/animals/barn-swallow/", "width=400,height=400");
+                                break;
+                                
+                            case "Barn Swallow":
+                                text = "Research Barn Swallow";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barn-swallow/", "https://a-z-animals.com/animals/barn-swallow/", "width=400,height=400");
+                                break;
+                                
+                            case "barn swallow":
+                                text = "Research barn swallow";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/barn-swallow/", "https://a-z-animals.com/animals/barn-swallow/", "width=400,height=400");
+                                break;
+                            //}
+                    //Baboon  {
+                            case "Research Baboon":
+                                text = "Research Baboon";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baboon/", "https://a-z-animals.com/animals/baboon/", "width=400,height=400");
+                                break;
+                                
+                            case "Baboon":
+                                text = "Research Baboon";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baboon/", "https://a-z-animals.com/animals/baboon/", "width=400,height=400");
+                                break;
+                                
+                            case "baboon":
+                                text = "Research baboon";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/baboon/", "https://a-z-animals.com/animals/baboon/", "width=400,height=400");
+                                break;
+                            //}
+                    //Balinese  {
+                            case "Research Balinese":
+                                text = "Research Balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                                
+                            case "Balinese":
+                                text = "Research Balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                                
+                            case "balinese":
+                                text = "Research balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                            //}
+                    //Bamboo Rat  {
+                            case "Research Balinese":
+                                text = "Research Balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                                
+                            case "Balinese":
+                                text = "Research Balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                                
+                            case "balinese":
+                                text = "Research balinese";
+                                ASE.say("Give me second.");
+                                window.open("https://a-z-animals.com/animals/balinese/", "https://a-z-animals.com/animals/balinese/", "width=400,height=400");
+                                break;
+                            //}
                             //}
                 //Animals Starting C  {
                             //}
