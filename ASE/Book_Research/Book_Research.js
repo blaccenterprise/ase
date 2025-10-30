@@ -551,6 +551,16 @@
                             
                         //}
 //}
+                //Arthneya's Memory Pathway  {
+                    //A.S.E. Spoken Language  {
+                            case "Grand Rising top of the morning":
+                                text = "Welcome";
+                                ASE.say("Welcome");
+                                window.open("../Research/Book_Research/David_Sonney.txt", "../Research/Book_Research/David_Sonney.txt", "width=400,height=400");
+                                break;
+
+                            //}
+                            //}
                             //}
 
                             
@@ -577,7 +587,7 @@
 
                             default:
                                 text = "My apologies.";
-                                ASE.say("I could not hear you clearly King Carpenter can you please repeat that");
+                                ASE.say("I could not hear you clearly can you please repeat that");
                                 break;
                         }
 
