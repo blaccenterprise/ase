@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-<style>
+<link rel="stylesheet" href="./Format_Web.css">
+<link rel="stylesheet" href="./blacc_body.css">
+<link rel="stylesheet" href="./button.css">
+<link rel="icon" type="image/x-icon" href="./BC.jpg"><style>
 
+    .callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+    
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Places it behind your form */
+  object-fit: cover;
+}
+    
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: black;
+  video: url('Biology.mp4');
 }
 
 #regForm {
-  background-color: black;
+  background-image:url('../Biology.mp4');
   margin: 100px auto;
   font-family: Raleway;
   padding: 40px;
   width: 70%;
   min-width: 300px;
-  color: white;
+  color: black;
 }
 
 h1 {
-  text-align: center;  
+  text-align: center;
+    font-family: georgia;
+    font-size: 65px;
+    color: white;
 }
 
 input {
@@ -84,13 +133,15 @@ button:hover {
   background-color: #04AA6D;
 }
 </style>
-<body>
-
+<body >
+<video autoplay muted loop id="bgVideo">
+  <source src="../Biology.mp4" type="video/mp4">
+</video>
 <form id="regForm" onclick="window.close()" enctype="text/plain">
   <h1>Aardark</h1>
   <!-- One "tab" for each step in the form: -->
   <div class="tab">
-   <img src="./Aardark.jpg" width="700px" height="550px">
+   <img src="./Aardark.jpg" width="100%" height="100%">
   </div>
   <div style="overflow:auto;">
     <div style="float:right;">
@@ -103,7 +154,13 @@ button:hover {
     <span class="step"></span>
   </div>
 </form>
-
+<div class="callout">
+  <div class="callout-header">Callout Header</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>Some text to describe the callout message. <a href="#">Learn more</a> or close it if it is in your way.</p>
+  </div>
+</div>
 <script>
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
